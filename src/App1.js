@@ -18,7 +18,9 @@ function App1() {
     <section className="section-center">
       <h3>Automatic text generator</h3>
       <form className="lorem-form" onSubmit={handleSubmit}>
-        <label htmlFor="amount">paragraphs:</label>
+        <label htmlFor="amount">
+          <h3>Paragraphs : </h3>
+        </label>
         <input
           type="number"
           name="amount"
